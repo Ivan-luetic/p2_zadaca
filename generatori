@@ -1,0 +1,11 @@
+def parnineparni(n):
+    for i in range(n):
+        if i % 2 == 0:
+            yield i, "paran"
+        else:
+            yield i, "neparan"
+
+brojevi = parnineparni(n)
+
+for broj, parnost in brojevi:
+    print(broj, "je", parnost)
