@@ -1,0 +1,5 @@
+from rekurzija import ispisi_unatrag
+
+unos = input("Unesi string:")
+
+print(ispisi_unatrag(unos))
