@@ -1,0 +1,10 @@
+def dobrodosao(ime):
+    return f"Dobrodosao {ime}"
+    
+pozdrav = lambda ime: f"Pozdrav {ime}"
+
+def dobrodoslica(funkcija):
+    return funkcija("Ivan")
+
+print(dobrodoslica(dobrodosao))
+print(dobrodoslica(pozdrav))
