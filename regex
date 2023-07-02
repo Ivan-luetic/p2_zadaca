@@ -1,0 +1,9 @@
+import re
+
+unos = input("Unesite string: ")
+
+if re.match(r'^([A-Z])[A-Za-z]*[0-5].*\s\1$', unos):
+    print("String zadovoljava uvjete.")
+else:
+    print("String ne zadovoljava uvjete.")
+
